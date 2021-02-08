@@ -1,0 +1,145 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.top-nav {
+    display: block;
+    ul {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        right: 6%;
+        top: 2%;
+        li {
+            display: inline-block;
+            margin-left: 28px;
+            a {
+                color: #ffffff;
+                text-decoration: none;
+                font-size: 2rem;
+            }
+            a:hover {
+                color: #afafaf;
+                transition: 0.15s ease-in;
+            }
+        }
+    }
+}
+
+#section {
+    background-image: url('../img/cyberpunk-5774101_1920.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper-landing {
+    // position: relative;
+    // text-align: center;
+    margin: 0 auto;
+    // width: 100%;
+    top: 40%;
+    h1 {
+        font-size: 3rem;
+        color: #ffffff;
+        margin:0;
+        font-weight: 100;
+    }
+    h2 {
+        font-size: 2rem;
+        color: #f2f2f2;
+        opacity: 0.6;
+        margin:0;
+        font-weight: 100;
+    }
+}
+
+// Button LOGIN
+.btn-login {
+    border: 1px solid #ffffff;
+    padding: 6px 20px;
+}
+
+.navbar {
+    width: 100%;
+    height: 9%;
+    background-color: #1a1a1a;
+    box-shadow: 0px 0px 10px #1a1a1a;
+}
+
+.container-login {
+    width: 30%;
+    margin: 0 auto;
+    position: relative;
+    top: 20%;
+    background-color:rgba($color: #ffffff, $alpha: 0.6);
+}
+
+.wrapper-login {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.wrapper-login input {
+    width: 200px;
+    height: 26px;
+    border: 1px solid #cccccc;
+    background-color: #f5f5f5;
+    font-size: 1rem;
+    display:block;
+    position: relative;
+    margin: 20px auto;
+}
+
+input::placeholder {
+    color: #a1a1a1;
+    // color: yellow;
+    font-size: 1rem;
+}
+
+.wrapper-login h2 {
+    font-size: 3rem;
+    text-transform:uppercase;
+}
+
+#submit {
+    width: 6.5em;
+    height: 3rem;
+    border: 1px solid #000000;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 2rem;
+    margin: 20px 0px 0px 0px;
+}
+#submit:hover {
+    border: 1px solid #a1a1a1;
+    background-color: #a1a1a1;
+    transition: 0.15s ease-in;
+}
+
+.options a {
+    color:#006400;  
+}
+.options a:hover {
+    color:#000000;  
+    transition: 0.20s ease-in;
+    text-decoration: none;
+}
+
+.invalidFeedback {
+    color: #ff0000;
+}
+
+.getRekt {
+    padding-left:4em;
+    color: red;
+}
